@@ -1,0 +1,28 @@
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 100px;
+    align-items: center;
+}
+
+.contact-grid-wrapper > .metadata-sidebar-wrapper img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-grid-wrapper > .metadata-sidebar-wrapper > .company-details-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 900;
+    font-size: 1.25em;
+    text-align: right;
+    margin: 20px 0;
+}
+
+.contact-grid-wrapper > .metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #cea135;
+}
+
