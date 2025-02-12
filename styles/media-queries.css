@@ -2,6 +2,7 @@
     .navigation-wrapper {
         flex-direction: column;
         height: 100%;
+        padding: 20px 100px;
     }
 
     .navigation-wrapper > .left-column {
@@ -13,6 +14,10 @@
     .navigation-wrapper > .center-column {
         order: 1;
         width: 100%;
+    }
+
+    .navigation-wrapper > .center-column > .baner-image {
+        display: none;
     }
 
     .navigation-wrapper > .right-column {
